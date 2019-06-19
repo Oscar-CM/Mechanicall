@@ -2,12 +2,11 @@ $(document).ready(function() {
 $("#submit").click(function() {
 
    $("#locationSelection").on("change",function(){
-        var selValue = $("#locationSelection :selected").text();
+        var selValue = $("#locationSelection").val();
 
 
     });
-
-        $('h2').html(selValue);
+   alert("the value is " + selValue);
       });
 
    $("#display").click(function() {
