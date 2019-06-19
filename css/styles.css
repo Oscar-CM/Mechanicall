@@ -1,4 +1,7 @@
 
+.allMechanics {
+  display: none;
+}
 .names{
 	text-align: left;
 	font-size: 15px;
