@@ -2,6 +2,11 @@
 .allMechanics {
   display: none;
 }
+.allMechanics h2{
+	text-align: center;
+	color: blue;
+	font-size: 40px;
+}
 .names{
 	text-align: left;
 	font-size: 15px;
