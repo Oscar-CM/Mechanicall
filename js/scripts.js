@@ -1,16 +1,22 @@
 $(document).ready(function() {
 $("#submit").click(function() {
 
-   $("#locationSelection").on("change",function(){
-        var selValue = $("#locationSelection").val();
 
+var selection = document.getElementById("LocationSelection");
+x = selection.options[location.selectedIndex].text;
+alert(x);
 
     });
-   alert("the value is " + selValue);
-      });
+
 
    $("#display").click(function() {
       $('.allMechanics').toggle();
 });
+   
+   $("#contact1").click(function() {
+    
+      $('table').toggle();
+
 
 });
+ });
